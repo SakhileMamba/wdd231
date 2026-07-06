@@ -33,7 +33,7 @@
   main {
     display: grid;
     grid-template: repeat(4, auto)/ repeat(10, 1fr);
-    margin: 10px;
+    margin: 0 auto;
   }
 
   main h1 {
