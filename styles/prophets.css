@@ -1,0 +1,36 @@
+#cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 10px;
+  padding: 16px;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 14px 14px rgba(0, 0, 0, .3);
+  margin: 16px;
+}
+
+body {
+  text-align: center;
+}
+
+section p:first-of-type {
+  margin-bottom: 6px;
+  margin-top: 0px;
+}
+
+section p:last-of-type {
+  margin-top: 0;
+}
+
+section h2 {
+  margin-bottom: 12px;
+}
+
+section {
+  background-color: antiquewhite;
+  padding: 16px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
