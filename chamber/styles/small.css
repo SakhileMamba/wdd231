@@ -93,6 +93,7 @@ body {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+    min-width: 320px;
 }
 
 h1 {
@@ -123,6 +124,7 @@ main {
 
 ul {
     margin: 0;
+    padding: 0;
 }
 
 .current-events,
@@ -213,6 +215,7 @@ footer {
 
 .footer-content {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 32px;
     padding: 16px;
