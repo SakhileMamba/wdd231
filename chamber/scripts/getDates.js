@@ -6,6 +6,9 @@ document.getElementById("lastModified").innerText = `Last modified: ${document.l
 const menu = document.querySelector('#menu');
 
 menu.addEventListener('click', () => {
-    menu.classList.toggle('open');
-    document.querySelector('nav').classList.toggle('open');
+  menu.classList.toggle('open');
+  document.querySelector('nav').classList.toggle('open');
 })
+
+//eish
+//tough
