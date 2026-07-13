@@ -1,0 +1,74 @@
+{
+    "members": [
+        {
+            "name": "Red Cross",
+            "address": "65 Mamba Street, Matsapha, Eswatini",
+            "phone-number": "2518 1688",
+            "website-URL": "https://www.redcross.org",
+            "email": "info@www.redcross.org",
+            "image-file-name": "red-cross.webp",
+            "membership-level": "Non Profit",
+            "other-information": "Red Cross volunteers and staff work to deliver vital services – from providing relief and support to those in crisis, to helping you be prepared to respond in emergencies"
+        },
+        {
+            "name": "Shoprite",
+            "address": "24 Manha Street, Matsapha, Eswatini",
+            "phone-number": "2518 4268",
+            "website-URL": "https://www.shoprite.co.za",
+            "email": "info@shoprite.co.za",
+            "image-file-name": "shoprite.webp",
+            "membership-level": "Bronze",
+            "other-information": "Shoprite is Africa’s largest supermarket retailer, operating 3,543 stores across the continent. The company's headquarters are in Brackenfell in the Western Cape province of South Africa."
+        },
+        {
+            "name": "Spar",
+            "address": "Plot 1, Tall Street, Tmb Building, Matsapha, Eswatini",
+            "phone-number": "2518 6781",
+            "website-URL": "https://www.spar.co.za",
+            "email": "info@spar.co.za",
+            "image-file-name": "spar.webp",
+            "membership-level": "Bronze",
+            "other-information": "The SPAR Group Ltd operates 6 distribution centres, 1 Build it distribution centre (building materials), and 1 pharmaceutical distribution centre (S BUYS), supplying goods and services to more than 2,500 SPAR stores across Southern Africa."
+        },
+        {
+            "name": "Clicks",
+            "address": "Plot 6, Prince Gija Street, Matsapha Eswatini",
+            "phone-number": "2404 5555",
+            "website-URL": "https://clicks.co.za",
+            "email": "info@clicks.co.za",
+            "image-file-name": "clicks.webp",
+            "membership-level": "Silver",
+            "other-information": "A leader in the healthcare market, Clicks Group is committed to increasing access to affordable primary healthcare for all South Africans through its retail pharmacy and pharmaceutical wholesale businesses."
+        },
+        {
+            "name": "FNB",
+            "address": "FNB building, Swaki Street, Matsapha, Eswatini",
+            "phone-number": "2518 4637",
+            "website-URL": "https://www.fnb.co.za",
+            "email": "info@fnb.co.za",
+            "image-file-name": "fnb.webp",
+            "membership-level": "Gold",
+            "other-information": "FNB is the oldest bank in Southern Africa, and can be traced back to the Eastern Province Bank formed in Grahamstown in 1838. Today, FNB trades as a division of FirstRand Bank Limited."
+        },
+        {
+            "name": "Stefanutti Stocks",
+            "address": "Plot 238, King Mswati III Avenue, Matsapha, Eswatini",
+            "phone-number": "2518 3025",
+            "website-URL": "https://stefanuttistocks.com",
+            "email": "info@stefanuttistocks.com",
+            "image-file-name": "stefanutti.webp",
+            "membership-level": "Gold",
+            "other-information": "Stefanutti Stocks delivers infrastructure development projects to diverse sectors across the built environment in Southern Africa"
+        },
+        {
+            "name": "Standard Bank",
+            "address": "Plot 238, Ndlaluhlaza street, Matsapha, Eswatini",
+            "phone-number": "2518 6523",
+            "website-URL": "https://www.standardbank.co.za",
+            "email": "info@standardbank.co.za",
+            "image-file-name": "standard-bank.webp",
+            "membership-level": "Silver",
+            "other-information": "A major African bank and financial services group. It is Africa's biggest lender by assets"
+        }
+    ]
+}

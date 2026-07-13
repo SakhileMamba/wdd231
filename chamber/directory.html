@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matsapha Chamber of Commerce Directory</title>
+  <meta name="author" content="Sakhile Mamba">
+  <meta name="description"
+    content="This is the business directory of the Matsapha Chamber of Commerce on the internet.">
+
+  <link rel="icon" href="favicon.ico">
+
+  <meta property="og:title" content="Matsapha Chamber of Commerce Homepage">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://matsapha.co.sz/wp-content/uploads/2020/10/Matsapha-Map-768x760.jpg">
+  <meta property="og:url" content="https://sakhilemamba.github.io/wdd230/Chamber/">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><img src="images/logo.webp" alt="Matsapha Chamber of Commerce logo" width="100" height="100"
+        loading="lazy"></a>
+    <div class="social-logos">
+      <a href="https://facebook.com" target="_blank"><img src="images/facebook.webp" alt="Facebook logo" width="50"
+          height="50" loading="lazy"></a>
+
+      <a href="https://instagram.com" target="_blank"><img src="images/instagram.webp" alt="Instagram logo" width="50"
+          height="50" loading="lazy"></a>
+
+    </div>
+    <div id="menuShell">
+      <a id="menu">
+      </a>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li class="active"><a href="directory.html">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+    </ul>
+  </nav>
+  <main class="directory-main">
+    <h1>Matsapha Municipality Chamber of Commerce Directory</h1>
+    <div class="directory-menu">
+      <button id="grid">⏹️ Grid</button>
+      <button id="list">📄 List</button>
+    </div>
+    <hr>
+    <div class="directory-grid">
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <p>Tel: +268 2516 0232</p>
+        <p>Cel: +268 7847 9252</p>
+        <p>Email: info@matsaphachamberofcommerce.com</p>
+      </div>
+      <div class="general-info">
+        <p>&copy; <span id="year"></span> - Sakhile Mamba</p>
+        <p>WDD230 Final Project</p>
+        <p id="lastModified"></p>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/directory.js"></script>
+</body>
+
+</html>
