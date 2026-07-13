@@ -87,11 +87,26 @@ li {
 body {
     background-color: white;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 h1 {
     text-align: center;
     margin: 48px 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -374,7 +389,7 @@ textarea {
 .directory-grid section {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 10px;
 }
 
 .list {
