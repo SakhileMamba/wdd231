@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matsapha Chamber of Commerce Homepage</title>
+  <meta name="author" content="Sakhile Mamba">
+  <meta name="description" content="This is the homepage of the Matsapha Chamber of Commerce on the internet.">
+
+  <link rel="icon" href="favicon.ico">
+
+  <meta property="og:title" content="Matsapha Chamber of Commerce Homepage">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://sakhilemamba.github.io/wdd231/chamber/images/matsapha_factory.webp">
+  <meta property="og:url" content="https://sakhilemamba.github.io/wdd231/Chamber/">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bevan&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <script src="scripts/getdates.js" defer></script>
+  <script src="scripts/weather.js" defer></script>
+  <script src="scripts/spotlight.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><img src="images/logo.webp" alt="Matsapha Chamber of Commerce logo" width="100" height="100"
+        loading="lazy"></a>
+    <div class="social-logos">
+      <a href="https://facebook.com" target="_blank"><img src="images/facebook.webp" alt="Facebook logo" width="50"
+          height="50" loading="lazy"></a>
+
+      <a href="https://instagram.com" target="_blank"><img src="images/instagram.webp" alt="Instagram logo" width="50"
+          height="50" loading="lazy"></a>
+
+    </div>
+    <div id="menuShell">
+      <a id="menu">
+      </a>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="hero">
+      <picture>
+        <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+        <source media="(max-width: 960px)" srcset="images/hero-medium.webp">
+        <img src="images/hero-large.webp" alt="Matsapha Eswatini" width="1280" height="799" loading="lazy">
+      </picture>
+      <a href="join.html">
+        <div class="call-to-action">
+          <h2>Join Chamber</h2>
+        </div>
+      </a>
+    </div>
+    <h1>Matsapha Municipality Chamber of Commerce</h1>
+    <section class="current-events">
+      <h2>Events</h2>
+      <div class="event">
+        <h3>Matsapha Industrial Fair</h3>
+        <h4>Date: September 15-17, 2024</h4>
+        <p>Experience the pulse of Eswatini's industrial heartland at the annual Matsapha Industrial Fair. This
+          three-day event
+          showcases the latest innovations and products from local manufacturers, featuring live
+          demonstrations, networking
+          opportunities, and seminars on sustainable industrial practices. Don't miss the chance to connect
+          with industry leaders
+          and discover the driving force behind Eswatini's economic growth.</p>
+      </div>
+      <div class="event">
+        <h3>Matsapha Cultural Food Festival</h3>
+        <h4>Date: November 5, 2024</h4>
+        <p>Savor the flavors of Eswatini at the Matsapha Cultural Food Festival. This vibrant one-day event
+          celebrates the rich
+          culinary heritage of the region, featuring traditional Swazi dishes alongside modern fusion cuisine.
+          Local chefs and
+          food artisans will offer tastings, cooking demonstrations, and workshops. Enjoy live music and dance
+          performances while
+          indulging in the best of Swazi gastronomy.</p>
+      </div>
+    </section>
+    <section class="weather-card">
+      <h2 class="weather-heading">Weather in Matsapha</h2>
+
+      <div class="readings">
+        <div class="forecast">
+          <p class="today">Today</p>
+
+          <p><span id="current-temp"></span></p>
+          <figure>
+            <img id="weather-icon" src="#" alt="">
+            <figcaption></figcaption>
+          </figure>
+
+        </div>
+        <div class="forecast">
+          <p class="day">Tomorrow</p>
+
+          <p><span class="temp"></span></p>
+          <figure>
+            <img class="weather-icon" src="#" alt="">
+            <figcaption></figcaption>
+          </figure>
+
+        </div>
+        <div class="forecast">
+          <p class="day">Today</p>
+
+          <p><span class="temp"></span></p>
+          <figure>
+            <img class="weather-icon" src="#" alt="">
+            <figcaption></figcaption>
+          </figure>
+
+        </div>
+        <div class="forecast">
+          <p class="day">Today</p>
+
+          <p><span class="temp"></span></p>
+          <figure>
+            <img class="weather-icon" src="#" alt="">
+            <figcaption></figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+    <section class="member-spotlights">
+      <h2>Member spotlights</h2>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <p>Tel: +268 2516 0232</p>
+        <p>Cel: +268 7847 9252</p>
+        <p>Email: info@matsaphachamberofcommerce.com</p>
+      </div>
+      <div class="general-info">
+        <p>&copy; <span id="year"></span> - Sakhile Mamba</p>
+        <p>WDD230 Final Project</p>
+        <p id="lastModified"></p>
+      </div>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
